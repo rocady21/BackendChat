@@ -12,5 +12,6 @@ export const AppDataSource = new DataSource({
     entities: [User],
     logging:true,
     //lee las entidades y las vuelve a crear
-    synchronize:true
+    synchronize:true,
+
 })

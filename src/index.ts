@@ -15,6 +15,7 @@ app.use(express.json())
 app.use(router)
 
 // funcion para hacer la conexion con la base de datos
+console.log("Hola xd")
 async function main () {
     try {
         await AppDataSource.initialize()
